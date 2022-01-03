@@ -1,0 +1,47 @@
+prune_ratios:
+  features.3.weight:
+    0.3
+  features.7.weight:
+    0.3
+  features.10.weight:
+    0.3
+  features.14.weight:
+    0.3
+  features.17.weight:
+    0.3
+  features.20.weight:
+    0.3
+  features.23.weight:
+    0.3
+  features.27.weight:
+    0.3
+  features.30.weight:
+    0.3
+  features.33.weight:
+    0.3
+  features.36.weight:
+    0.3
+  features.40.weight:
+    0.3
+  features.43.weight:
+    0.3
+  features.46.weight:
+    0.3
+  features.49.weight:
+    0.3
+rho:
+  0.001
+
+mask_update_decay_epoch:
+  100-130
+lower_bound:
+  0.3-0.3-0.3
+upper_bound:
+  0.25-0.275-0.3
+
+# mask_update_decay_epoch:
+#   100-130
+# lower_bound:
+#   0.32-0.31-0.3
+# upper_bound:
+#   0.3-0.3-0.3
